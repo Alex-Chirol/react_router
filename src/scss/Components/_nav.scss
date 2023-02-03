@@ -1,0 +1,14 @@
+.nav {
+    height: 80px;
+    line-height: 80px;
+    &__links {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    &__link {
+        text-decoration: none ;
+        color: black;
+        font-weight: bold;
+    }
+}
